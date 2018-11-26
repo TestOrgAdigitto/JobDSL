@@ -4,6 +4,6 @@ job('Nodejob'){
 		}
 
 	steps{
-		shell{"Hello World"}
+		shell{"echo 'Hello World'"}
 	}
 }
